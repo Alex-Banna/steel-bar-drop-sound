@@ -48,7 +48,6 @@ public class SteelBarDropSoundPlugin extends Plugin
 			String menuOption = event.getMenuOption();
 			if ("Drop".equals(menuOption)) {
 				if (widget.getItemId() == 2353) {
-					log.info("Dropped item at index {} id {}", widget.getIndex(), widget.getName());
 					soundEngine.playClip();
 				}
 			}
